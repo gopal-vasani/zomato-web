@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <!-- Header Start-->
+    <header>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Zomato_Logo.svg/2560px-Zomato_Logo.svg.png"
+            alt="">
+
+        <div class="con">
+            <div class="dropdown">
+                <h1><a href="#restaurant">Food List</a></h1>
+                <ul class="Food"><br><br>
+                    <li>Jalebi-Fafda</li>
+                    <hr>
+                    <li>Dhosa</li>
+                    <hr>
+                    <li>Pizza</li>
+                    <hr>
+                    <li>Burger</li>
+                    <hr>
+                    <li>Sandwich</li>
+                    <hr>
+                    <li>Khaman</li>
+                    <hr>
+                </ul>
+
+            </div>
+
+            <div class="dropdown">
+                <h1><a href="#rest.aurant">Add Restaurant</a></h1>
+
+                <ul class="food"><br><br>
+                    <li>Navjivaan Restaurant</li>
+                    <hr>
+                    <li>Pizza point</li>
+                    <hr>
+                    <li>Khaudhra-Point</li>
+                    <hr>
+                    <li>GJ-1 Dhosa Point</li>
+                    <hr>
+                    <li>Kathiyavadi Dhaba</li>
+                    <hr>
+                </ul>
+
+                </li>
+            </div>
+            <h3>Log In</h3>
+
+            <h3>Sing Up</h3>
+
+            <input class="Search" type="Text" placeholder="search">
+
+        </div>
+        </div>
+    </header>
+
+    <div class="photo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Zomato_Logo.svg/2560px-Zomato_Logo.svg.png"
+            alt="">
+        <h1>Discovern The Best Food In Ahmedabad</h1>
+
+    </div>
+
+
+
+    <!-- Navbar End -->
+
+    <!-- Menu Part Start -->
+    <!-- First  Row Start -->
+    <div class="menu"></div>
+    <h2>What's on your mind?</h2>
+    <div class="menu-items">
+        <div class="item">
+            <img src="paratha.jpg" alt="Paratha">
+
+        </div>
+        <div class="item">
+            <img src="khichadi.jpg" alt="Khichdi">
+
+        </div>
+        <div class="item">
+            <img src="poha.jpg" alt="Poha">
+
+        </div>
+        <div class="item">
+            <img src="coffee.jpg" alt="Coffee">
+
+        </div>
+        <div class="item">
+            <img src="poori.jpg" alt="Poori">
+
+        </div>
+        <div class="item">
+            <img src="upma.jpg" alt="Upma">
+
+        </div>
+    </div>
+    </div><br><br>
+    <!-- First Row End -->
+    <!-- Second Row Start -->
+    <div class="menu">
+        <h2>Popular Cuisines</h2><br><br>
+        <div class="menu-items">
+            <div class="item">
+                <img src="rolls.jpg" alt="Rolls">
+
+            </div>
+            <div class="item">
+                <img src="north-indian.jpg" alt="North Indian">
+
+            </div>
+            <div class="item">
+                <img src="tea.jpg" alt="Tea">
+
+            </div>
+            <div class="item">
+                <img src="cake.jpg" alt="Cake">
+
+            </div>
+            <div class="item">
+                <img src="dessert.jpg" alt="Dessert">
+
+            </div>
+            <div class="item">
+                <img src="sandwich.jpg" alt="Sandwich">
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Second Row End -->
+
+    <!-- Menu Part End -->
+    <div class="but">
+        <h1>Restaurants with online food delivery in Pune</h1><br>
+
+        <div class="filter-options">
+            <button>Filter</button>
+            <button>Sort By</button>
+            <button>Fast Delivery</button>
+            <button>Ratings 4.0+</button>
+            <button>Pure Veg</button>
+            <button>Offers</button>
+            <button>Rs. 300-Rs. 600</button>
+            <button>Less than Rs. 300</button><br><br>
+        </div>
+
+        <!-- Card Start-->
+
+        <!-- First Row Start -->
+
+        <div class="restaurant-grid" id="restaurant">
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="noodles.jpg" alt="The Flavour Boutique">
+                    <div class="discount">30% OFF UPTO ₹75</div>
+                </div>
+                <div class="card-info">
+                    <h3>The Flavour Boutique</h3>
+                    <p>3.5 • 60-65 mins</p>
+                    <p>Indian, Snacks, Mexican, etc.</p>
+                    <p>Wakad</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="rice.jpg" alt="ANNA UDPI CENTER">
+                    <div class="discount">15% OFF UPTO ₹45</div>
+                </div>
+                <div class="card-info">
+                    <h3>ANNA UDPI CENTER</h3>
+                    <p>4.3 • 45-50 mins</p>
+                    <p>Indian, Snacks</p>
+                    <p>Wakad</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="burger.jpg" alt="Pizza Burger Company">
+                    <div class="discount">50% OFF UPTO ₹100</div>
+                </div>
+                <div class="card-info">
+                    <h3>Pizza Burger Company</h3>
+                    <p>45-50 mins</p>
+                    <p>Fast Food, Burgers, Cafe</p>
+                    <p>Pimple Saudagar</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="pasta.jpg" alt="Fast Food Corner">
+                    <div class="discount">50% OFF UPTO ₹100</div>
+                </div>
+                <div class="card-info">
+                    <h3>Fast Food Corner</h3>
+                    <p>2 • 55-60 mins</p>
+                    <p>Pizzas, Fast Food, Burgers, Cafe</p>
+                    <p>Pimple Saudagar</p>
+                </div>
+            </div>
+        </div>
+        <!-- First Row End -->
+
+
+        <!-- Second Row Start -->
+        <div class="restaurant-grid">
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="Pizza Burger Company.jpg" alt="Pizza Burger Company">
+                    <div class="discount">40% OFF UPTO ₹150</div>
+                </div>
+                <div class="card-info">
+                    <h3>Pizza Burger Company</h3>
+                    <p>3.5 • 60-65 mins</p>
+                    <p>Indian, Snacks, Mexican, etc.</p>
+                    <p>Wakad</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="Superman Momos.jpg" alt="Superman Momos">
+                    <div class="discount">20% OFF UPTO ₹45</div>
+                </div>
+                <div class="card-info">
+                    <h3>Superman Momos</h3>
+                    <p>4.3 • 45-50 mins</p>
+                    <p>Indian, Snacks</p>
+                    <p>Wakad</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="BambirHouse.jpg" alt="BambirHouse">
+                    <div class="discount">40% OFF UPTO ₹100</div>
+                </div>
+                <div class="card-info">
+                    <h3>BambirHouse</h3>
+                    <p>45-50 mins</p>
+                    <p>Fast Food, Burgers, Cafe</p>
+                    <p>Pimple Saudagar</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="pasta.jpg" alt="Fast Food Corner">
+                    <div class="discount">50% OFF UPTO ₹100</div>
+                </div>
+                <div class="card-info">
+                    <h3>Fast Food Corner</h3>
+                    <p>2 • 55-60 mins</p>
+                    <p>Pizzas, Fast Food, Burgers, Cafe</p>
+                    <p>Pimple Saudagar</p>
+                </div>
+            </div>
+        </div>
+        <!-- Second Row End -->
+
+        <!-- Third Row Start -->
+        <div class="restaurant-grid">
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="Chinese Wok.avif" alt="Chinese Wok">
+                    <div class="discount">30% OFF UPTO ₹75</div>
+                </div>
+                <div class="card-info">
+                    <h3>Chinese Wok</h3>
+                    <p>3.5 • 60-65 mins</p>
+                    <p>Indian, Snacks, Mexican, etc.</p>
+                    <p>Wakad</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="Subway.jpg" alt="Subway">
+                    <div class="discount">15% OFF UPTO ₹145</div>
+                </div>
+                <div class="card-info">
+                    <h3>Subway</h3>
+                    <p>4.3 • 45-50 mins</p>
+                    <p>Indian, Snacks</p>
+                    <p>Wakad</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="Burger King.jpg" alt="Burger King">
+                    <div class="discount">50% OFF UPTO ₹100</div>
+                </div>
+                <div class="card-info">
+                    <h3>Burger King</h3>
+                    <p>45-50 mins</p>
+                    <p>Fast Food, Burgers, Cafe</p>
+                    <p>Pimple Saudagar</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="Kwality Walls Ice Cream and More.jpg" alt="Kwality Walls Ice Cream and More">
+                    <div class="discount">40% OFF UPTO ₹200</div>
+                </div>
+                <div class="card-info">
+                    <h3>Kwality Walls Ice Cream and More</h3>
+                    <p>2 • 55-60 mins</p>
+                    <p>Pizzas, Fast Food, Burgers, Cafe</p>
+                    <p>Pimple Saudagar</p>
+                </div>
+            </div>
+        </div>
+        <!-- Third Row End -->
+
+        <!-- 4TH Row Start -->
+        <div class="restaurant-grid">
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="Shree Marutinandan.jpg" alt="Shree Marutinandan">
+                    <div class="discount">20% OFF UPTO ₹250</div>
+                </div>
+                <div class="card-info">
+                    <h3>Shree Marutinandan</h3>
+                    <p>3.5 • 60-65 mins</p>
+                    <p>Indian, Snacks, Mexican, etc.</p>
+                    <p>Wakad</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="Tulsi Restaurant.jpg" alt="Tulsi Restaurant">
+                    <div class="discount">20% OFF UPTO ₹45</div>
+                </div>
+                <div class="card-info">
+                    <h3>Tulsi Restaurant</h3>
+                    <p>4.3 • 45-50 mins</p>
+                    <p>Indian, Snacks</p>
+                    <p>Wakad</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="The Belgian Waffle.jpg" alt="The Belgian Waffle">
+                    <div class="discount">30% OFF UPTO ₹100</div>
+                </div>
+                <div class="card-info">
+                    <h3>The Belgian Waffle</h3>
+                    <p>45-50 mins</p>
+                    <p>Fast Food, Burgers, Cafe</p>
+                    <p>Pimple Saudagar</p>
+                </div>
+            </div>
+
+            <div class="restaurant-card">
+                <div class="card-image">
+                    <img src="McDonald's.jpg" alt="McDonald's">
+                    <div class="discount">20% OFF UPTO ₹90</div>
+                </div>
+                <div class="card-info">
+                    <h3>McDonald's</h3>
+                    <p>2 • 55-60 mins</p>
+                    <p>Pizzas, Fast Food, Burgers, Cafe</p>
+                    <p>Pimple Saudagar</p>
+                </div>
+            </div>
+        </div>
+        <!-- 4Th Row End -->
+
+        <div class="card">
+
+            <div class="crd">
+                <img src="https://b.zmtcdn.com/data/pictures/chains/0/550/3cf1d442e2777580486d16bfb88990f4_featured_v2.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*2qqqqqq"
+                    alt=""><br>
+                <h3>Order Online</h3>
+                <p> Stay Home And Order To Your Doorstap</p>
+            </div>
+
+            <div class="crd">
+                <img src="https://i.pinimg.com/736x/ea/4e/5f/ea4e5fffcebbfff13509eec210d99771.jpg" alt=""><br>
+                <h3>Order Online</h3>
+                <p> Stay Home And Order ?To Your Doorstap</p>
+            </div>
+
+            <div class="crd">
+                <img src="https://b.zmtcdn.com/data/pictures/1/8231/ece44c6966627db07546f671e820a287.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"
+                    alt=""><br>
+                <h3>Order Online</h3>
+                <p> Stay Home And Order To Your Doorstap</p>
+            </div>
+        </div>
+        <!-- Card End --> <br><br>
+
+        <!-- Collection Part Start -->
+        <div class="coll">
+            <div class="txt">
+                <h1>Collection's</h1><br>
+                <div data-aos="fade-right"></div>
+                <p3>explore Curated lists Of Top Restaurants, Cafes, Pubs</p3>
+            </div>
+
+            <div class="restaurant">
+                <div class="rest" id="rest.aurant">
+                    <img src="https://cdn.sanity.io/images/ocl5w36p/production/7fde1d83d90d937a0578d6af3cde24c224273762-1280x1760.jpg?w=480&auto=format&dpr=2"
+                        alt="">
+                    <img src="https://content.jdmagicbox.com/v2/comp/ahmedabad/x6/079pxx79.xx79.240523201316.m4x6/catalogue/shree-kesariya-veg-south-bopal-ahmedabad-restaurants-9ndve7u16q.jpg"
+                        alt="">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/40/67/9d/yi-jing.jpg?w=600&h=-1&s=1"
+                        alt="">
+                    <img src="https://b.zmtcdn.com/data/collections/22eb6aa5b01680eef6d9e4b22c60613e_1706256565.png?fit=around|562.5:360&crop=562.5:360;*,*"
+                        alt="">
+                </div>
+            </div>
+        </div><br><br>
+        <!-- Collection Part End -->
+
+        <!-- App Part Start -->
+        <div class="app">
+            <img src="https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png" alt="">
+            <p1>Get The Zomato App</p1>
+        </div><br><br>
+        <!-- App Part End -->
+
+        <!-- Button Start -->
+        <div class="btn">
+            <p2>Epxplore Options Near Me</p2><br><br>
+            <button>Popular cuisines near me</button>
+            <button>Popular restaurant types near me</button>
+            <button>Top Restaurant Chains</button>
+            <button>Cities We Deliver To</button>
+        </div>
+        <!-- Button End -->
+
+        <div class="download-section">
+            <h2>For better experience, download the Swiggy app now</h2>
+            <div class="store-buttons">
+                <a href="https://play.google.com/store/games?device=windows&pli=1" class="store-btn"><img src="googleplay.jpg" alt="Google Play"></a>
+                <a href="https://www.apple.com/in/app-store/" class="store-btn"><img src="appstore.jpg" alt="App Store"></a>
+            </div>
+        </div>
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="list">
+                <h2>About Zomato</h2><br>
+                <p>Who We Are</p><br>
+                <p>Blog</p><br>
+                <p>Work With Us</p><br>
+                <p>Report Fraud</p><br>
+                <p>Contact Us</p><br>
+            </div>
+
+            <div class="list">
+                <h2>Zomaverse</h2><br>
+                <p>Zomato</p><br>
+                <p>Blinkit</p><br>
+                <p>Zomato Live</p><br>
+                <p>Zomaland</p><br>
+                <p>Feedind India</p><br>
+            </div>
+
+            <div class="list">
+                <h2>For Restaurants</h2><br>
+                <p>Partner With Us</p><br>
+                <p>Apps For You</p><br>
+            </div>
+
+            <div class="list">
+                <h2>Learn More</h2><br>
+                <p>Security</p><br>
+                <p>Terms</p><br>
+                <p>Sitemap</p><br>
+                <p>Privacy</p><br>
+            </div>
+
+            <div class="icon">
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+
+                <a href="https://x.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+           <div class="top"><a href="#top">TOP</a></div> 
+        </div>
+
+        <!-- Footer End -->
+</body>
+
+</html>

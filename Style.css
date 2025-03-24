@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* Menu Part Start */
+.menu {
+    text-align: center;
+    padding: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Menu Part End */
+/* Navbar Start */
+
+header{
+    position: relative;
+}
+header img{
+    height: 30px;
+    position: absolute;
+    left: 80%;  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    position: relative;
+    color: white;
+}
+
+.con {
+    display: flex; 
+    gap: 70px;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown li{
+    width: 100px;
+}
+
+.food{
+    text-align: center;
+    margin: 300px;
+    padding: 100px;
+}
+
+.dropdown h1 {
+    margin: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+    a{
+      text-decoration: none;
+      color: white  ;
+    }
+}
+
+.dropdown ul {
+    display: none;
+    position: absolute;
+    background-color:black;
+    width: 100px;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.dropdown:hover ul {
+    display: block;
+}
+
+.dropdown ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown ul li:hover {
+    background-color: lightgreen;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.text h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+input{
+    padding: 10px;
+}
+
+
+
+header h1, .text h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    font-size: 1.5em;
+}
+
+header .con h1 {
+    margin-right: 20px;
+}
+
+
+header .con div {
+    margin-right: 20px;
+}
+.filter-options{
+    margin-left: 25%;
+    button{
+        padding: 10px;
+    }
+}
+
+header .con div:last-child {
+    margin-right: 0;
+}
+
+/* Navbar End */
+
+.photo{
+    background-image: url(https://img.freepik.com/free-photo/top-view-eid-al-fitr-celebration-with-delicious-food_23-2151205122.jpg?t=st=1725866781~exp=1725870381~hmac=d5e48420a65bc45303f753ff75c3b1c2ebc8b4d4122703e49747c4fc54dc1851&w=1380);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+
+    img{
+        height: 100px;
+        position: absolute;
+        align-items: center;
+        
+        position: absolute;
+        left: 500px;
+        top: 200px;
+    }
+    h1{
+        position: absolute;
+        top:320px ;
+        left: 400px;
+        color: white;
+    }
+   
+}
+
+/* Card Start*/
+
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.restaurant-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05);
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.discount {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.card-info {
+    padding: 15px;
+}
+
+.card-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.card-info p:first-of-type {
+    font-size: 14px;
+    color: #43a047;
+    font-weight: bold;
+}
+
+.card-info p:last-of-type {
+    color: #888;
+}
+
+.card{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 580px;
+    gap: -20px;
+}
+
+.crd img{
+    display: block;
+    width: 310px;
+    height: 290px;
+    border-radius:10px;
+    margin-top: 55px;
+}
+
+
+.card{
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.crd{
+    width: 3500px;
+    margin: 0 100px;
+    /* box-shadow: 0 0 20px 2px rgb(0, 0, 0, .1); */
+    transition: 1s;
+}
+
+.crd :hover{
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+/* Card End */
+
+/* Collection Part Start */
+.coll p3{
+    margin-left: 110px;
+    font-size: 25px;
+}
+
+.coll .txt{
+    margin-top: 40px;
+    margin-left: 300px;
+    padding: 33px;
+}
+
+.restaurant{
+    padding: 10px;
+    margin: 100px auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.rest img{
+    width: 300px;
+    height: 300px ;
+    border-radius: 15px;
+    margin-left: 70PX;
+}
+
+.rest{
+    justify-content: space-around;
+    justify-content: center;
+    margin-left: -50px;
+    /* box-shadow: 0 0 20px 2px rgb(0, 0, 0, .1); */
+    transition: 1s;
+}
+
+.rest :hover{
+    transform: scale(1.05);
+    z-index: 2;
+}
+/* Collection Part End */
+
+/* App Part Start */
+.app{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.app p1{
+    margin-left: -800px;
+    margin-top: 80px;
+    font-size: 30px; 
+}
+
+.app img{
+    margin-right: 50px;
+    width: 30%;
+}
+
+
+
+/* App Part End */
+
+/* Button Start */
+.btn p2{
+    margin-left: 550px;
+    margin-top: 40px;
+    padding: 33px;
+    font-size: 35px;
+}
+
+.btn button{
+    width: 900px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    margin-top: 11px;
+    margin-left: 350px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+/* Button End */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.explore-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.download-section {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.but{
+   h1{
+    margin-left: 26%;
+    }
+}
+.store-btn img {
+    width: 150px;
+    height: auto;
+}
+
+
+/* Footer Start */
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(230, 216, 216);
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.footer .list{
+    margin-right: 100px;
+}
+
+/* Footer End */
+
+/* Icon Start */
+.icon{
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+    background-color:rgb(230, 216, 216);
+    text-align: center;
+    gap: 15px;
+    margin-left: -100px;
+    margin-top: 50px
+  
+}
+
+.fa-square-instagram{
+    font-size: 30px;
+    color: red;
+    border-radius: 50%;
+    animation: ani 2.5s linear infinite;
+}
+
+.fa-facebook{
+    font-size: 30px;
+    color: rgb(33, 33, 220);
+    animation: ani 2.5s linear infinite;
+}
+
+.fa-twitter{
+    font-size: 30px;
+    animation: ani 2.5s linear infinite
+}
+
+.footer .top{
+    height: 30px;
+    width: 40px;
+    margin-top: 20%;
+    border: 2px solid black;
+    background-color: black;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        color: white;
+        &&:hover{
+            color:black;
+        }
+        
+    }
+    &&:hover{
+        background-color: white;
+        color: black;
+        transition: 0.2s ease;
+    }
+}
+/* Icon End */
